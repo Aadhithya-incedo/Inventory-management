@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class OutwardRegister {
+public class Outward {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;

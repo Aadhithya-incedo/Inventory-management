@@ -10,7 +10,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
 @Entity
-public class InwardRegister {
+public class Inward {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
