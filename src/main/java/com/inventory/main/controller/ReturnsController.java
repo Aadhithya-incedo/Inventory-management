@@ -146,6 +146,6 @@ public class ReturnsController {
 		}
 
 		returnService.delete(returns);
-		return ResponseEntity.status(HttpStatus.OK).body("Deleted....");
+		return ResponseEntity.status(HttpStatus.OK).body("Deleted......");
 	}
 }
